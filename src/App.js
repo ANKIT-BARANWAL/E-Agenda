@@ -62,7 +62,7 @@ function App() {
     <Router>
       <Header title="E-Agenda" searchBar={false} /> 
       <Routes>
-          <Route exact path="https://ANKIT-BARANWAL.github.io/E-Agenda" element={ <>
+          <Route exact path="/E-Agenda" element={ <>
             <AddTodo addTodo={addTodo} />
             <Todos todos={todos} onDelete={onDelete} /> 
             </>} render={()=>{
